@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TSRTC</title>
+    </head>
+    <body><center>
+        <img height="100"src="https://th-i.thgim.com/public/migration_catalog/article10538854.ece/alternates/FREE_1200/13hyskm06-TSRTChy14TSRTC-emblem.jp.jpg" alt="TSRTC icon">
+        <h2>TELENGANA STATE ROAD TRANSPORT CORPORATION </h2>    
+        <h2>GENERAL BUS PASS APPLICATION</h2>
+        <form action="./text.html">
+        <fieldset  >
+            <legend>Applicant Details</legend>
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" placeholder="" maxlength="20" pattern="[a-zA-z]+" title="Name should only contain alphabets">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Fname">Father/Guardian Name</label>
+            <input type="text" name="Fname" id="Fname" pattern="[a-zA-z]+" title="Name should only contain alphabets"><br>
+            <label for="Dob">Date Of Birth</label>
+            <input type="date" name="date" id="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>Gender</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Female">Female</label><br>
+            <label>Age as on:</label>
+            <input type="number" name="Years" id="Years" style="width:20px">
+            <label for="Years">Years</label>
+            <input type="number" name="Months" id="Months" style="width:20px">
+            <label for="Months">Months</label>
+            <input type="number" name="Days" id="Days" style="width:20px">
+            <label for="Days">Days</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Aadhaar">Aadhaar No:</label>
+            <input type="tel" id="Aadhaar"  pattern="[0-9]{12,12}"><br>
+            <label for="Whatsapp">Whatsapp No:</label>
+            <input type="tel" name="Whatsapp" id="Whatsapp" pattern="\+91[ ][6-9][0-9]{9,9}" title="It should contain the country code with space afterwards">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Email">Email id:</label>
+            <input type="email" name="Email" id="Email" pattern="[a-z0-9]+@[a-b]{5,5}.com"><br>
+            <label for="Photo">Photo: </label>
+            <input type="file" name="Photo" id="Photot">
+
+        </fieldset>
+        <fieldset>
+            <legend>Resedential Address Details</legend>
+            <label for="add">Applicant Address: </label>
+            <textarea maxlength="20" id="add"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="District">District</label>
+            <select id="District" >
+                <option value="Select" disabled selected>--select--</option>
+                <option value="Secundrabad">Secundrabad</option>
+                <option value="Cyberabad">Cyberabad</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Kphb">Kphb</option>
+            </select><br>
+            <label for="Mandal">Mandal</label>
+            <select id="Mandal">
+                <option value="Select" disabled selected>--Select--</option>
+                <option value="HYDERABAD">Hyderabad</option>
+                <option value="SECUNDRABAD">Secundrabad</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Village">Village</label>
+            <select id="Village">
+                <option value="Select" disabled selected>--Select--</option>
+                <option value="HYDERABAD">Hyderabad</option>
+                <option value="SECUNDRABAD">Secundrabad</option>
+            </select><br>
+            <label>Pincode</label>
+            <input type="">
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="City">City: </label>
+            <select id="City">
+                <option value="Select" disabled selected>--Select--</option>
+                <option value="HYDERABAD">Hyderabad</option>
+                <option value="SECUNDRABAD">Secundrabad</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+            <label for="PassType">PassType </label>
+            <select id="PassType">
+                <option value="Select" disabled selected>--Select--</option>
+                <option value="HYDERABAD">Greater Pass</option>
+                <option value="SECUNDRABAD">Greater Ordinary Route Pass Mtly</option>
+                <option value="Ordinary Pass">Ordinary Pass</option>
+                <option value="Metro Deluxe Pass">Metro Deluxe Pass</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            <label for="PaymentMode">Payment Mode</label>
+            <select id="PaymentMode">
+                <option value="Select" disabled selected>--Select Payment Mode--</option>
+                <option value="Counter">Payment at Counter</option>
+                <option value="UPI">UPI</option>
+            </select><br>
+            <label for="PassDeliveryMode">Pass Delivery Mode</label>
+            <select id="PassDeliveryMode">
+                <option value="Select" disabled selected>--Select Pass Delivery Mode--</option>
+                <option value="Counter">At Counter</option>
+                <option value="Courier">Courier</option>
+            </select><br>
+            <label for="Center">Pass Collection Center
+            </label>
+            <select name="Center" id="Center">
+                <option value="Select" disabled selected>Select Pass Collection Center</option>
+                <option value="HYDERABAD">Hyderabad</option>
+                <option value="SECUNDRABAD">Secundrabad</option>
+            </select>
+        </fieldset>
+        <img width="200"src="https://upload.wikimedia.org/wikipedia/commons/6/69/Captcha.jpg" alt="captcha">
+        <img src="https://www.pngarts.com/files/2/Refresh-PNG-Pic.png" alt="reload" width="100"><br>
+        <input type="text" name="captcha"><br>
+        <button type="submit">Submit</button>
+        </form>
+    </center>
+    </body>
+</html>
